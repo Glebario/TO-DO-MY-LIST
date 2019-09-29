@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* Обозночает цвет фона всего сайта */
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #eef3f5;
+  color: #131313;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 4rem;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #131313;
+  text-decoration: none;
+}
+
+.counter {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 2px;
+  border-style: hidden solid solid solid;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  color: #eef3f5;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: #131313;
+  margin: 1rem;
+}
+
+.btn:hover {
+  background-color: #00a1e9;
+}
+
+.container {
+  border: 2px solid;
+  text-align: center;
+  width: 100rem;
+}
+
+.content {
+  border: 2px solid;
+  width: 80rem;
+}
+
+.content_task {
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.content_task li {
+  border: 1px solid;
+  margin-bottom: 2rem;
+  height: 3rem;
+  font-weight: 700;
+  border-radius: 2rem;
+}
+
+.content_task li:hover {
+  border: 1px solid;
+  color: #eef3f5;
+  background-color: #131313;
+}
+
+.content_task .doneTask {
+  background-color: #131313;
+  color: #eef3f5;
+}
+/*# sourceMappingURL=main.css.map */

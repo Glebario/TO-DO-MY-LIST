@@ -1,0 +1,74 @@
+@import "colors"
+
+html
+    font-size: 10px
+
+body
+    background-color: $body-bg
+    color: $dark
+    font-family: 'Roboto', sans-serif
+    padding-top: 4rem
+    margin: 0
+    font-size: 1.4rem
+
+h1
+    text-align: center
+
+a
+    color: $dark
+    text-decoration: none
+
+
+.counter
+    display: inline-block
+    padding: 1rem 2rem
+    border: 2px
+    border-style: hidden solid solid solid
+    font-weight: 700
+    margin-bottom: 2rem
+    border-radius: 2rem
+
+.btn
+    display: inline-block
+    padding: 1.5rem 3rem
+    color: $body-bg
+    text-decoration: none
+    border-radius: 0.5rem
+    font-size: 1.6rem
+    font-weight: 700
+    background-color: $dark
+    margin: 1rem 
+
+    &:hover
+        background-color: lighten($active-color, 2%)
+
+.container
+    border: 2px solid
+    text-align: center
+    width: 100rem
+
+.content
+    border: 2px solid
+    width: 80rem
+
+    &_task
+        list-style: none
+        padding: 0 2rem
+
+        li
+            border: 1px solid
+            margin-bottom: 2rem
+            height: 3rem
+            font-weight: 700
+            border-radius: 2rem
+
+            &:hover
+                border: 1px solid 
+                color: $body-bg
+                background-color: $dark
+        
+        .doneTask
+            background-color: $dark
+            color: $body-bg
+
+
